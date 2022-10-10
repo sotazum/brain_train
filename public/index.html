@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>脳トレタイピング</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <center>
+        <h1>脳トレタイピングゲーム</h1>
+        <h3>数字が出たら色を英語で書こう！漢数字が出たら読みをローマ字で書こう！(全部小文字で)</h3>
+        <h4 id="me" class="text"></h4>
+        <div class="game">
+            <h2 id="text1" class="text"></h2>
+            <h1 id="text2" class="text"></h1>
+            <h2 id="text3" class="text"></h2>
+            <h1 id="text4" class="text"></h2>
+        </div>
+        <form id="form" class="mb-4">
+            <input type="text" id="input" class="form-control" placeholder="" autocomplete="off">
+        </form>
+        <div id="user" style="display:inline-block; text-align: center; margin-top: 30px; font-size: 24px; font-weight: bold;">
+        </div>
+        <h2 id="rule" class="text"></h2>
+    </center>
+    <script src="js/reconnecting-websocket.min.js"></script>
+    <script src="js/application.js"></script>
+</body>
+
+</html>
